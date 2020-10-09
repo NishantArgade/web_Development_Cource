@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            border: 3px solid black;
+        }
+
+        #box-1 {
+            position: relative;
+            top: 90px;
+            background-color: crimson;
+            z-index: 30;
+            /*zindex only apply when position: relative ,absolute,sticky,fixed;*
+            whichever z-index value is large is alway over than smaller z-endex value*/
+        }
+
+        #box-2 {
+            position: relative;
+            top: 34px;
+            z-index: -275;
+            background-color: green;
+
+        }
+
+        #box-3 {
+            /* display: none; */
+            /*delete the element*/
+            visibility: hidden;
+            /*hide the element but space is as it is*/
+            background-color: blue;
+
+        }
+
+        #box-4 {
+
+            background-color: yellow;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box" id="box-1"></div>
+    <div class="box" id="box-2"></div>
+    <div class="box" id="box-3"></div>
+    <div class="box" id="box-4"></div>
+</body>
+
+</html>

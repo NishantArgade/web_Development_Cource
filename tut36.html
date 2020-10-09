@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation in css</title>
+    <style>
+.container{
+    display: flex;
+    background-color: cadetblue;
+    color: darkblue;
+    border:  3px solid brown;
+    height: 200px;
+    position: relative;
+}
+.box{
+    /* position: absolut; */
+    position: relative;
+    width: 10%;
+    height: 100%;
+    background-color: red;
+    animation-name: nishant;
+    animation-duration: 3s;
+    animation-timing-function:ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count:30;
+    animation-fill-mode:;
+
+}
+@keyframes nishant2{
+    form{
+    width:100px;
+    }
+
+    to{
+        width:100%;
+    }
+}
+
+@keyframes nishant{
+
+    25%{
+        top:250px;
+
+    }
+    50%{
+        top:250px;
+        left:500px;
+
+    }
+    75%{
+        left:500px;
+
+
+    }
+    /* 100%{
+        top:0px;
+        left:0px;
+
+    } */
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            this is a box
+        </div>
+    </div>
+    
+</body>
+</html>

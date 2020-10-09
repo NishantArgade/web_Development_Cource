@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>settimeout and setintervals</title>
+</head>
+<style>
+
+    #time{
+        border:3px solid red;
+        background-color: teal;
+        font-weight: bold;
+        text-align: center;
+        padding: 30px 10px;
+        font-size: 3rem;
+    }
+</style>
+<body>
+    <div class="container">now time is :
+<div id="time">
+
+
+</div>
+
+
+    </div>
+    <script>
+function timeset(){
+let time=new Date();
+console.log(time)
+
+document.getElementById('time').innerHTML=time;}
+
+let intervals = setInterval(timeset ,1000);
+
+// clearInterval(inervals);
+
+let date=setTimeout(timeset, 3000);
+
+clearTimeout(date);
+
+    </script>
+    
+</body>
+</html>

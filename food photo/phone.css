@@ -1,0 +1,110 @@
+/* 
+body{
+
+}
+#navbar{
+
+}
+#home{
+
+}
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 170%;
+    height: 100%;
+    background: url(./BC.jpg) no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.7;
+
+/* service */
+.service-container{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.service-container{
+    display: flex;
+    /* margin-top: -2px; */
+    /* background:url('./BC.jpg'); */
+    position: absolute;
+    width: 100%;
+    /* border: 3px solid  green; */
+    justify-content: center;
+    align-items: center;
+
+
+} 
+.our-client {
+    /* border: 3px solid white; */
+    text-align: center;
+    height: auto;
+    padding-top: 480px;
+    font-size: 1.3rem;
+}
+div input{
+    margin:13px 5px;
+    width: 200px;
+}
+div textarea{
+    width: 200px;
+    margin-left: 4px;
+    
+}
+.clients{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#navbar {
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    position: sticky;
+    top: 5px;
+}
+#navbar {
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    position: sticky;
+    top: 5px;
+}
+#navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    position: sticky;
+    top: 5px;
+}
+
+#navbar ul li a {
+    background-color: black;
+    border-radius: 10px;
+    /* opacity: 2; */
+    z-index:2 ;
+    margin: 0px;
+    color:white;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 0px;
+}
+#name{
+    /* margin-left: 3px;
+    margin-top: -4px; */
+display: none;
+
+}
+#logo img{
+    width: 30px;
+    height:30px;
+    margin: 3px 5px;
+    padding: 2px;
+    background-color: black;
+    border-radius: 10px;
+}

@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body 
+    nav#navbar
+        ul
+            div#logo
+                img(src="../static/logo.png")
+                div HDA
+                
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+            
+    section#HomeSection
+            div.big Welcome to  nishant's Dance Academy
+            div small Eat Sleep Dance Repeat
+    section#MissionSection 
+            span  here is our mission imgs
+  
+    section#ClientsSection
+            div#Heading1 Our Activity
+            div.flex
+                div.client
+                    img(src="/static/c1.png",     alt="")
+                p Lorem ipsum dolor sit amet     consectetur, adipisicing elit.     Rerum, ex saepe! Inventore     libero, voluptas accusantium     reprehenderit eveniet qui, a     doloribus neque eius quo unde     molestiae? Magnam autem     dolorum unde non.
+                
+            div.flex   
+                 div.client
+                     img(src="/static/c2.png", alt="")
+                 p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, ex      saepe! Inventore libero, voluptas accusantium reprehenderit eveniet      qui, a doloribus neque eius quo unde molestiae? Magnam autem dolorum      unde non.
+                 
+            div.flex  
+                 div.client
+                     img(src="/static/c3.png", alt="")
+                 p Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,      autem, et asperiores voluptas veritatis odio eius tempore quidem quod      porro quasi necessitatibus, quo saepe voluptate earum nulla sed      blanditiis illum.
+                 span  here is our clients imges
+    section#sponsors
+           div#Heading Our Sponsors
+           div.oursponsor
+               img(src="/static/apple.png", alt="")
+           div.oursponsor#Swigy
+               img(src="/static/swigy.png",  alt="")
+           div.oursponsor
+               img(src="/static/whatsapp.png", alt="")
+           div.oursponsor
+               img(src="/static/microsoft.png", alt="")
+    footer#foot
+        span Copyright @All Right Resurved.
+  
+    script
+      include ../static/index.js
+
+        

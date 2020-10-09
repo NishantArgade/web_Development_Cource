@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arrow function</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+
+    let student = () =>{
+
+        console.log("hello good morning");
+        }
+        let greet =  ()=> {
+         console.log('Good morning');
+    }
+    let sum =(a,b)=> a+b;
+    let half =(a)=> a/2;
+
+
+   let  obj={
+        names:["aniket","nishant","sanket"],
+        greet:"goog morning",
+
+        speak(){
+            this.names.forEach(element => {
+                
+            console.log(this.greet+element)
+            });
+        }
+    }
+obj.speak();
+    
+
+// setTimeout(() => {
+//     console.log("after 2 sec")
+// }, 5000);
+
+    </script>
+</body>
+</html>

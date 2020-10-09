@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skeleton</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+    header{
+        display: flex;
+        border: 3px solid black;
+    }
+
+    #logo{
+        border: 3px solid red;
+    }
+    #logo img{
+        border: 3px solid red;
+        width: 60px;
+        height: 60px;
+    }
+    .nav{
+        border: 3px solid red;
+        margin-left: 500px;
+        margin-top: 30px;
+        width: 300px;
+        display: flex;
+    }
+    div ul li a{
+        margin: 5px 10px;
+        text-decoration: none;
+    }
+    
+    div ul li {
+        list-style: none;
+    }
+    .home{
+        border: 3px solid red;
+    }
+    h1{
+        border: 3px solid rgb(0, 255, 0);
+        
+    }
+    .containt{
+        border: 3px solid rgb(0, 26, 255);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .service-containt{
+        border: 3px solid rgb(255, 0, 191);
+        
+    }
+    .service{
+        border: 3px solid rgb(18, 198, 218);
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .box{
+        border: 3px solid rgb(12, 2, 9);
+        /* display: flex; */
+    }
+    .our-client-container{
+        border: 3px solid rgb(12, 2, 9);
+    }
+    .clients{
+        border: 3px solid rgb(14, 17, 156);
+        display: flex;
+    }
+.clients img{
+    height: 100px;
+    width: 100px;
+}
+.contact-container{
+    border: 5px solid rgb(128, 0, 0);
+}
+.form-flexb{
+    border: 3px solid rgb(3, 0, 10);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+footer{
+    display: flex;
+    justify-content: center;
+    border: 3px solid rgb(221, 11, 32);
+    background-color: black;
+    color: white;
+}
+    </style>
+</head>
+<body><header>
+    <div id="logo">
+<img src="../food photo/H1.jpg" alt="">
+    </div>
+    <div >
+        <ul class="nav">
+            <li><a href="#">home</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">client</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </div>
+</header>
+<section class="home">
+<h1>this is my home section</h1>
+<div class="containt">
+<img src="" alt="Here is img">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa tenetur, explicabo cumque adipisci unde consectetur, delectus saepe alias vitae natus vero, nam at eos obcaecati fuga dolores. Recusandae, vel a?</p>
+</div>
+</section>
+<section class="service-containt">
+<h1>Our services</h1>
+
+<div class="service">
+ 
+    <div class="box">
+  <img src="" alt="here is img">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellat alias nemo laudantium placeat, delectus eveniet. Iste, nulla accusantium aliquam quis necessitatibus, veniam qui commodi repellendus id odit, distinctio temporibus.</p>
+</div>
+    <div class="box">
+  <img src="" alt="here is img">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellat alias nemo laudantium placeat, delectus eveniet. Iste, nulla accusantium aliquam quis necessitatibus, veniam qui commodi repellendus id odit, distinctio temporibus.</p>
+</div>
+    <div class="box">
+  <img src="" alt="here is img">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellat alias nemo laudantium placeat, delectus eveniet. Iste, nulla accusantium aliquam quis necessitatibus, veniam qui commodi repellendus id odit, distinctio temporibus.</p>
+</div>
+</div>
+</section>
+    <section class="our-client-container">
+        <h1>our client</h1>
+        <div class="clients">
+            <div class="client1"><img src="./C3.png"></div>
+            <div class="client2"><img src="./C4.png"></div>
+            <div class="client3"><img src="./C1.png"></div>
+        </div>
+    </section>
+    <section class="contact-container">
+       <h1>contact Now</h1>
+
+        <div class="form-flexb">
+            <form action="noaction"   >
+
+              <div class="input">
+                <label for="name">Name :</label>
+                <input type="text" name="name" id="">
+              </div> 
+              <div class="input">
+                <label for="email">Email :</label>
+                <input type="text" name="email" id="">
+              </div> 
+              <div class="input">
+                <label for="number">Number :</label>
+                <input type="text" name="number" id="">
+              </div> 
+              <div>
+                  <label for="message">Message :</label>
+                  <textarea name="message" id="textarea" cols="30" rows="10"></textarea>
+              </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        copyright &copy; all right resurved
+    </footer>
+</body>
+</html>

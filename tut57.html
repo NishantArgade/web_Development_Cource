@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js event listening</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <din class="container">
+      <div id="para">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam deleniti quam veritatis consequatur quod quaerat! Eum, nostrum quis animi minima dolore quaerat exercitationem omnis dolorum autem voluptatibus. Consequuntur rem amet possimus esse optio saepe delectus, natus accusamus labore quisquam libero atque quas exercitationem nostrum nihil quam aspernatur a ipsum blanditiis.</p> </div>
+        <button onclick="togglehide()"     id="btn">
+            show/Hide
+        </button>
+    </din>
+    <script>
+// function togglehide(){
+//     // let container = document.getElementsByClassName('containerḍ');
+//     // console.log(container);
+//     // let btn = document.getElementsByid('btn');
+//     // para.log(btn);
+//    if( para.style.display !='none'){
+//     para.style.display ='none';
+//    }
+//    else{
+//     para.style.display ='block';
+//    }
+// }
+let par = document.getElementById('para')
+par.addEventListener('mouseover',function run(){
+    console.log('mouse inside')
+});
+let para = document.getElementById('para')
+para.addEventListener('mouseout',function run(){
+    console.log('mouse outside')
+});
+    </script>
+    
+</body>
+</html>

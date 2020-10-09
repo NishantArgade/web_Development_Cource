@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>settimeout and setintervals</title>
+</head>
+<style>
+
+    #time{
+        border:3px solid red;
+        background-color: teal;
+        font-weight: bold;
+        text-align: center;
+        padding: 30px 10px;
+        font-size: 3rem;
+    }
+</style>
+<body>
+    <div class="container">now time is :
+<div id="time">
+
+
+</div>
+
+
+    </div>
+    <script>
+
+       let t = new Date(2030,2,5,7,60,8,5000);
+// document.getElementById('time').innerHTML=t;
+      console.log(t)
+
+let year = t.setHours(2);
+console.log(year);
+
+    </script>
+    
+</body>
+</html>

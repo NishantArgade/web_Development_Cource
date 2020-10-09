@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Size Unit</title>
+
+
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container {
+
+            border: 3px solid red;
+            width: 100%; /*width set accordding to its parrent */
+            width: 100px;
+            height: 246px;
+            /* margin: auto; */
+            text-align: center; /* font-size: 15px; */
+            width: 50vw;/*width set accordding to browser width */
+            height: 50vh;/*height set accordding to browser height */
+        }
+
+        .h1 {
+            border: 3px solid green;
+            width: 100%;
+            font-size: 34px;
+            font-size: 2em; /*size set according to its parent (multiple times its parrent)*/
+            font-size: 2rem; /*size set according to html and browser (multiple times its parrent)*/
+        }
+
+        html {
+            font-size: 19px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1 class="h1"> this is my heading first</h1>
+        <p>this is my second heaading</p>
+        <p>this is my third heaading</p>
+        <p>this is my forth heaading</p>
+        <p>this is my fifth heaading</p>
+
+    </div>
+
+
+</body>
+
+
+
+</html>

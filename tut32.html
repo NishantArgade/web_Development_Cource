@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>select element by attributes</title>
+    <style>
+       a[target]{
+        
+           color: #a02307;
+       }
+       a[target="_self"]{
+        
+           color: teal;
+       }
+input[type="text"]{
+    width: 500px;
+}
+li:nth-child(5){
+    color: crimson;
+}
+li:nth-child(2n+3){
+    color: darkblue;
+}
+li:nth-child(2n+0){
+    color: gold;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+   <h1><a href="https://google.com" target="_blank">go to Google</a></h1>
+   <h1><a href="https://facebook.com" target="_self">go to Facebook</a></h1>
+
+   <form action="noaction">
+       <input type="text" name="" id="" placeholder="Enter Your Name ">
+       <input type="email" name="" id="" placeholder="Enter Your Email ">
+       <input type="password" name="" id="" placeholder="Enter Your password ">
+       <input type="number" name="" id="" placeholder="Enter Your Phone Number ">
+       <input type="submit" value="Submit Now">
+
+<ol>
+    <li>Items</li>
+    <li>Items</li>
+    <li>Items</li>
+    <li>Items</li>
+    <li>Items</li>
+    <li>Items</li>
+    <li>Items</li>
+    <li>Items</li>
+    <li>Items</li>
+    <li>Items</li>
+</ol>
+
+    
+   </form>
+
+
+
+
+
+    </div>
+    
+</body>
+</html>

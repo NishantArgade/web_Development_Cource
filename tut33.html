@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEfore and After pseudo Selector</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@500&family=Ranchers&display=swap" rel="stylesheet">
+    <style>
+        body {
+            /*css reset*/
+            margin: 0px;
+            padding: 0px;
+            background-color: black;
+            color: white;
+            font-family: 'Kufam', cursive;
+        }
+
+        /*in before and after pseudo selector apply before or after content in what you apply seudo slector*/
+header::before{/*the meaning is that apply below content before content of header*/ 
+    content: "";
+    background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    
+}
+        .nav {
+            margin-top: 30px;
+            /* border: 3px solid green; */
+            display: flex;
+            justify-content: center;
+            font-size: 19px;
+            padding: 14px;
+        }
+
+        section {
+            /* border: 2px solid red; */
+            text-align: center;
+            margin-top: 100px;
+
+        }
+
+        li {
+            list-style: none;
+
+        }
+
+        a {
+            color: white;
+            margin: 5px 58px;
+            text-decoration: none;
+
+        }
+        h1{
+            font-size: 3rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            </ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About US</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Help</a></li>
+            <ul>
+
+        </div>
+    </header>
+    <section>
+        <h1>Welcome to Coding World</h1>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla iusto suscipit, veniam ab numquam tempora
+            ratione harum illo incidunt quam provident veritatis expedita vitae? Ea eius deserunt consequatur adipisci
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, sit fuga? Quas, accusamus ipsum
+            consectetur quae aliquid quis natus culpa pariatur voluptates, est debitis. Consequuntur pariatur quis
+            eligendi ex odio quasi ut velit suscipit reiciendis illo cumque asperiores sequi doloremque voluptatibus
+            officia et minus, corrupti mollitia. Alias magni a distinctio.
+        </p>
+        
+    </section>
+
+</body>
+
+</html>

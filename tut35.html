@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css Variable/and Costom  properties</title>
+    <style>
+
+    :root{
+        /*:root{} var used for globaly for access any css element.*/
+
+        --p-color:black;
+        --h-maxh:300px;
+    }
+
+
+
+        .container{
+            display: flex;
+            justify-content: center;
+            background-color: var(--p-color);
+
+
+        }
+.box{
+    
+    /*  --name-property:value;  var used for local scope for access under bracket css element.*/
+
+    --p-color:yellow;
+    --s-color:red;
+    --maxw:233px;
+    width: var(--maxw);
+    height: var(--h-maxh);
+    border:3px solid var(--s-color);
+    margin: 5px 5px;
+    background-color: var(--p-color);
+
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    
+</body>
+</html>
